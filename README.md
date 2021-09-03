@@ -22,6 +22,8 @@ Install the protocol compiler plugins for Go using the following commands:
 <p>$ go install google.golang.org/protobuf/cmd/protoc-gen-go  </p>
 <p>$ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc  </p>
 
+Update your PATH so that the protoc compiler can find the plugins:
+
 <p>$ export PATH="$PATH:$(go env GOPATH)/bin"  </p>
 Get the example code
 
